@@ -1,0 +1,86 @@
+body {
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titleCalc{
+    color: white;
+}
+
+.display{
+    width: 30rem;
+    background-color: rgb(79, 113, 113);
+    height: 90px;
+    border-radius: 10px;
+    border: 1px solid rgb(79, 113, 113);
+}
+
+.display p{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: right;
+    color: antiquewhite;
+    margin-right: 10px;
+}
+
+button {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.container{
+    margin: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(63, 127, 112);
+    background-color: rgb(63, 127, 112);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}   
+
+.buttons {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px; /* Ajuste conforme necessário */
+  }
+  
+  .buttons button {
+    font-weight: bolder;
+    margin: 5px;
+    border-color: white;
+    border-radius: 10px;
+    width: 90px;
+    height: 50px;
+  }
+
+  .buttonsCleanEquals button{
+    width: 240px;
+    margin: 5px;
+    height: 50px;    
+    border-color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+  }
+
+  .delButton{
+    background-color: grey;
+  }
+
+  .equalsButton{
+    background-color: brown;
+  }
+
+  button:hover{
+    background-color: rgb(63, 127, 112);
+  }
+  
